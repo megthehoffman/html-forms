@@ -52,18 +52,21 @@
 					<option value = 'crenshaw'>Crenshaw</option>
 					<option value = 'canary'>Canary</option>
 				</select><br>
-			Quantity:<input type = "text" name = "quantity"><br>
+			<div>Quantity:<input type = "text" name = "quantity"></div>
 			
-			Delivery Time:
+			<div>Delivery Time:
 			<input type= "radio" name = "time" value = "am">AM
 			<input type= "radio" name = "time" value = "pm">PM
-			<input type= "radio" name = "time" value = "wat">WAT<br>
+			<input type= "radio" name = "time" value = "wat">WAT</div>
+
+			Special Delivery Instructions:
+			<textarea name = "delivery"></textarea><br></div>
 			
 			Returning Customer?
 			<input type = "radio" name = "returning" value = "yes">Yes
 			<input type = "radio" name = "returning" value = "yes">No<br>
 			
-			For Statistical Purpose:
+			<span class="stats">For Statistical Purpose:</span>
 			<input type = "checkbox" name = "animal" value = "dog">Dog
 			<input type = "checkbox" name = "animal" value = "cat">Cat
 			<input type = "checkbox" name = "animal" value = "hedgehog">Hedgehog
